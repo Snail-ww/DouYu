@@ -142,133 +142,49 @@
 		07EB52241EFDF30D002A829D /* Attention */ = {
 			isa = PBXGroup;
 			children = (
-				07EB52251EFDF30D002A829D /* Controller */,
-				07EB52261EFDF30D002A829D /* Model */,
-				07EB52271EFDF30D002A829D /* View */,
+				B46C14D21F00E26F00DA24D8 /* Controller */,
+				B46C14D31F00E26F00DA24D8 /* Model */,
+				B46C14D41F00E26F00DA24D8 /* View */,
 			);
 			path = Attention;
-			sourceTree = "<group>";
-		};
-		07EB52251EFDF30D002A829D /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		07EB52261EFDF30D002A829D /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		07EB52271EFDF30D002A829D /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		07EB52281EFDF30D002A829D /* Discover */ = {
 			isa = PBXGroup;
 			children = (
-				07EB52291EFDF30D002A829D /* Controller */,
-				07EB522A1EFDF30D002A829D /* Model */,
-				07EB522B1EFDF30D002A829D /* View */,
+				B46C14CF1F00E25900DA24D8 /* Controller */,
+				B46C14D01F00E25900DA24D8 /* Model */,
+				B46C14D11F00E25900DA24D8 /* View */,
 			);
 			path = Discover;
-			sourceTree = "<group>";
-		};
-		07EB52291EFDF30D002A829D /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		07EB522A1EFDF30D002A829D /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		07EB522B1EFDF30D002A829D /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		07EB522C1EFDF30D002A829D /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				07EB522D1EFDF30D002A829D /* Controller */,
-				07EB522E1EFDF30D002A829D /* Model */,
-				07EB522F1EFDF30D002A829D /* View */,
+				B46C14C91F00E21700DA24D8 /* Controller */,
+				B46C14CA1F00E21700DA24D8 /* Model */,
+				B46C14CB1F00E21700DA24D8 /* View */,
 			);
 			path = Home;
-			sourceTree = "<group>";
-		};
-		07EB522D1EFDF30D002A829D /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		07EB522E1EFDF30D002A829D /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		07EB522F1EFDF30D002A829D /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		07EB52301EFDF30D002A829D /* Live */ = {
 			isa = PBXGroup;
 			children = (
-				07EB52311EFDF30D002A829D /* Controller */,
-				07EB52321EFDF30D002A829D /* Model */,
-				07EB52331EFDF30D002A829D /* View */,
+				B46C14CC1F00E24500DA24D8 /* Controller */,
+				B46C14CD1F00E24500DA24D8 /* Model */,
+				B46C14CE1F00E24500DA24D8 /* View */,
 			);
 			path = Live;
-			sourceTree = "<group>";
-		};
-		07EB52311EFDF30D002A829D /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		07EB52321EFDF30D002A829D /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		07EB52331EFDF30D002A829D /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		07EB52341EFDF30D002A829D /* Main */ = {
 			isa = PBXGroup;
 			children = (
 				07EB52351EFDF30D002A829D /* Controller */,
-				07EB52361EFDF30D002A829D /* Model */,
-				07EB52371EFDF30D002A829D /* View */,
+				B46C14C71F00E1F100DA24D8 /* Model */,
+				B46C14C81F00E1F100DA24D8 /* View */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -282,49 +198,14 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		07EB52361EFDF30D002A829D /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		07EB52371EFDF30D002A829D /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
 		07EB52381EFDF30D002A829D /* Person */ = {
 			isa = PBXGroup;
 			children = (
-				07EB52391EFDF30D002A829D /* Controller */,
-				07EB523A1EFDF30D002A829D /* Model */,
-				07EB523B1EFDF30D002A829D /* View */,
+				B46C14D51F00E29A00DA24D8 /* Controller */,
+				B46C14D61F00E29A00DA24D8 /* Model */,
+				B46C14D71F00E29A00DA24D8 /* View */,
 			);
 			path = Person;
-			sourceTree = "<group>";
-		};
-		07EB52391EFDF30D002A829D /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		07EB523A1EFDF30D002A829D /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		07EB523B1EFDF30D002A829D /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		07EB523C1EFDF30D002A829D /* ThirdLids */ = {
@@ -339,6 +220,125 @@
 			children = (
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		B46C14C71F00E1F100DA24D8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B46C14C81F00E1F100DA24D8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B46C14C91F00E21700DA24D8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B46C14CA1F00E21700DA24D8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B46C14CB1F00E21700DA24D8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B46C14CC1F00E24500DA24D8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B46C14CD1F00E24500DA24D8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B46C14CE1F00E24500DA24D8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B46C14CF1F00E25900DA24D8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B46C14D01F00E25900DA24D8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B46C14D11F00E25900DA24D8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B46C14D21F00E26F00DA24D8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B46C14D31F00E26F00DA24D8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B46C14D41F00E26F00DA24D8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B46C14D51F00E29A00DA24D8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B46C14D61F00E29A00DA24D8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B46C14D71F00E29A00DA24D8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -724,6 +724,7 @@
 				07EB521C1EFDEFDC002A829D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07EB521D1EFDEFDC002A829D /* Build configuration list for PBXNativeTarget "DouYuZhiBoTests" */ = {
 			isa = XCConfigurationList;
@@ -732,6 +733,7 @@
 				07EB521F1EFDEFDC002A829D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07EB52201EFDEFDC002A829D /* Build configuration list for PBXNativeTarget "DouYuZhiBoUITests" */ = {
 			isa = XCConfigurationList;
@@ -740,6 +742,7 @@
 				07EB52221EFDEFDC002A829D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
