@@ -24,6 +24,7 @@
 		B46C14EB1F00E97A00DA24D8 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B46C14E91F00E97A00DA24D8 /* Live.storyboard */; };
 		B46C14EE1F00E9CF00DA24D8 /* Person.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B46C14EC1F00E9CF00DA24D8 /* Person.storyboard */; };
 		B46C14F01F00E9DF00DA24D8 /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C14EF1F00E9DF00DA24D8 /* PersonViewController.swift */; };
+		B46C14F31F00F09700DA24D8 /* UIBarButtonItem-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C14F21F00F09700DA24D8 /* UIBarButtonItem-Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		B46C14EA1F00E97A00DA24D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DouYuZhiBo/Base.lproj/Live.storyboard; sourceTree = SOURCE_ROOT; };
 		B46C14ED1F00E9CF00DA24D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DouYuZhiBo/Base.lproj/Person.storyboard; sourceTree = SOURCE_ROOT; };
 		B46C14EF1F00E9DF00DA24D8 /* PersonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonViewController.swift; sourceTree = "<group>"; };
+		B46C14F21F00F09700DA24D8 /* UIBarButtonItem-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem-Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -238,6 +240,7 @@
 		07EB523D1EFDF30D002A829D /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				B46C14F11F00F05800DA24D8 /* Extensions */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -369,6 +372,14 @@
 			children = (
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		B46C14F11F00F05800DA24D8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B46C14F21F00F09700DA24D8 /* UIBarButtonItem-Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -512,6 +523,7 @@
 			files = (
 				07EB51F61EFDEFDC002A829D /* AppDelegate.swift in Sources */,
 				B46C14E11F00E93700DA24D8 /* AttentionViewController.swift in Sources */,
+				B46C14F31F00F09700DA24D8 /* UIBarButtonItem-Extension.swift in Sources */,
 				07EB523F1EFDF41D002A829D /* MainViewController.swift in Sources */,
 				B46C14DC1F00E8DC00DA24D8 /* HomeViewController.swift in Sources */,
 				B46C14E81F00E97000DA24D8 /* LiveViewController.swift in Sources */,
