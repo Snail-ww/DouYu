@@ -12,13 +12,22 @@ class MainViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        // 设置tabbar 的tintColor
+        UITabBar.appearance().tintColor = UIColor.orange;
+        // 添加子控制器
+        addChildVC(name: "Home")
+        addChildVC(name: "Live")
+        addChildVC(name: "Attention")
+        addChildVC(name: "Discover")
+        addChildVC(name: "Person")
+        
         // Do any additional setup after loading the view.
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    fileprivate func addChildVC(name: String) {
+        // 获取storyboard的入口控制器
+        let VC = UIStoryboard(name: name, bundle: nil).instantiateInitialViewController()!
+        // 添加到tabbarController
+        addChildViewController(VC)
     }
     
 

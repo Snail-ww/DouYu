@@ -14,6 +14,16 @@
 		07EB520B1EFDEFDC002A829D /* DouYuZhiBoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EB520A1EFDEFDC002A829D /* DouYuZhiBoTests.swift */; };
 		07EB52161EFDEFDC002A829D /* DouYuZhiBoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EB52151EFDEFDC002A829D /* DouYuZhiBoUITests.swift */; };
 		07EB523F1EFDF41D002A829D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EB523E1EFDF41D002A829D /* MainViewController.swift */; };
+		B46C14DA1F00E77600DA24D8 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B46C14D81F00E77600DA24D8 /* Home.storyboard */; };
+		B46C14DC1F00E8DC00DA24D8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C14DB1F00E8DC00DA24D8 /* HomeViewController.swift */; };
+		B46C14DF1F00E91500DA24D8 /* Attention.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B46C14DD1F00E91500DA24D8 /* Attention.storyboard */; };
+		B46C14E11F00E93700DA24D8 /* AttentionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C14E01F00E93700DA24D8 /* AttentionViewController.swift */; };
+		B46C14E41F00E94A00DA24D8 /* Discover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B46C14E21F00E94A00DA24D8 /* Discover.storyboard */; };
+		B46C14E61F00E95B00DA24D8 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C14E51F00E95B00DA24D8 /* DiscoverViewController.swift */; };
+		B46C14E81F00E97000DA24D8 /* LiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C14E71F00E97000DA24D8 /* LiveViewController.swift */; };
+		B46C14EB1F00E97A00DA24D8 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B46C14E91F00E97A00DA24D8 /* Live.storyboard */; };
+		B46C14EE1F00E9CF00DA24D8 /* Person.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B46C14EC1F00E9CF00DA24D8 /* Person.storyboard */; };
+		B46C14F01F00E9DF00DA24D8 /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C14EF1F00E9DF00DA24D8 /* PersonViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +57,16 @@
 		07EB52151EFDEFDC002A829D /* DouYuZhiBoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DouYuZhiBoUITests.swift; sourceTree = "<group>"; };
 		07EB52171EFDEFDC002A829D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07EB523E1EFDF41D002A829D /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		B46C14D91F00E77600DA24D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DouYuZhiBo/Base.lproj/Home.storyboard; sourceTree = SOURCE_ROOT; };
+		B46C14DB1F00E8DC00DA24D8 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B46C14DE1F00E91500DA24D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DouYuZhiBo/Base.lproj/Attention.storyboard; sourceTree = SOURCE_ROOT; };
+		B46C14E01F00E93700DA24D8 /* AttentionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttentionViewController.swift; sourceTree = "<group>"; };
+		B46C14E31F00E94A00DA24D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DouYuZhiBo/Base.lproj/Discover.storyboard; sourceTree = SOURCE_ROOT; };
+		B46C14E51F00E95B00DA24D8 /* DiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
+		B46C14E71F00E97000DA24D8 /* LiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveViewController.swift; sourceTree = "<group>"; };
+		B46C14EA1F00E97A00DA24D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DouYuZhiBo/Base.lproj/Live.storyboard; sourceTree = SOURCE_ROOT; };
+		B46C14ED1F00E9CF00DA24D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DouYuZhiBo/Base.lproj/Person.storyboard; sourceTree = SOURCE_ROOT; };
+		B46C14EF1F00E9DF00DA24D8 /* PersonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -239,6 +259,8 @@
 		B46C14C91F00E21700DA24D8 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				B46C14D81F00E77600DA24D8 /* Home.storyboard */,
+				B46C14DB1F00E8DC00DA24D8 /* HomeViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -260,6 +282,8 @@
 		B46C14CC1F00E24500DA24D8 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				B46C14E71F00E97000DA24D8 /* LiveViewController.swift */,
+				B46C14E91F00E97A00DA24D8 /* Live.storyboard */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -281,6 +305,8 @@
 		B46C14CF1F00E25900DA24D8 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				B46C14E21F00E94A00DA24D8 /* Discover.storyboard */,
+				B46C14E51F00E95B00DA24D8 /* DiscoverViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -302,6 +328,8 @@
 		B46C14D21F00E26F00DA24D8 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				B46C14DD1F00E91500DA24D8 /* Attention.storyboard */,
+				B46C14E01F00E93700DA24D8 /* AttentionViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -323,6 +351,8 @@
 		B46C14D51F00E29A00DA24D8 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				B46C14EC1F00E9CF00DA24D8 /* Person.storyboard */,
+				B46C14EF1F00E9DF00DA24D8 /* PersonViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -451,6 +481,11 @@
 				07EB52001EFDEFDC002A829D /* LaunchScreen.storyboard in Resources */,
 				07EB51FD1EFDEFDC002A829D /* Assets.xcassets in Resources */,
 				07EB51FB1EFDEFDC002A829D /* Main.storyboard in Resources */,
+				B46C14DA1F00E77600DA24D8 /* Home.storyboard in Resources */,
+				B46C14DF1F00E91500DA24D8 /* Attention.storyboard in Resources */,
+				B46C14E41F00E94A00DA24D8 /* Discover.storyboard in Resources */,
+				B46C14EB1F00E97A00DA24D8 /* Live.storyboard in Resources */,
+				B46C14EE1F00E9CF00DA24D8 /* Person.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,7 +511,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				07EB51F61EFDEFDC002A829D /* AppDelegate.swift in Sources */,
+				B46C14E11F00E93700DA24D8 /* AttentionViewController.swift in Sources */,
 				07EB523F1EFDF41D002A829D /* MainViewController.swift in Sources */,
+				B46C14DC1F00E8DC00DA24D8 /* HomeViewController.swift in Sources */,
+				B46C14E81F00E97000DA24D8 /* LiveViewController.swift in Sources */,
+				B46C14E61F00E95B00DA24D8 /* DiscoverViewController.swift in Sources */,
+				B46C14F01F00E9DF00DA24D8 /* PersonViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -527,6 +567,46 @@
 				07EB51FF1EFDEFDC002A829D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B46C14D81F00E77600DA24D8 /* Home.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B46C14D91F00E77600DA24D8 /* Base */,
+			);
+			name = Home.storyboard;
+			sourceTree = "<group>";
+		};
+		B46C14DD1F00E91500DA24D8 /* Attention.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B46C14DE1F00E91500DA24D8 /* Base */,
+			);
+			name = Attention.storyboard;
+			sourceTree = "<group>";
+		};
+		B46C14E21F00E94A00DA24D8 /* Discover.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B46C14E31F00E94A00DA24D8 /* Base */,
+			);
+			name = Discover.storyboard;
+			sourceTree = "<group>";
+		};
+		B46C14E91F00E97A00DA24D8 /* Live.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B46C14EA1F00E97A00DA24D8 /* Base */,
+			);
+			name = Live.storyboard;
+			sourceTree = "<group>";
+		};
+		B46C14EC1F00E9CF00DA24D8 /* Person.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B46C14ED1F00E9CF00DA24D8 /* Base */,
+			);
+			name = Person.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
