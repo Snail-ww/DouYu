@@ -14,6 +14,7 @@
 		07EB520B1EFDEFDC002A829D /* DouYuZhiBoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EB520A1EFDEFDC002A829D /* DouYuZhiBoTests.swift */; };
 		07EB52161EFDEFDC002A829D /* DouYuZhiBoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EB52151EFDEFDC002A829D /* DouYuZhiBoUITests.swift */; };
 		07EB523F1EFDF41D002A829D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EB523E1EFDF41D002A829D /* MainViewController.swift */; };
+		B40B9F7E1F03B4D8009FFB24 /* PageTitleVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40B9F7D1F03B4D8009FFB24 /* PageTitleVIew.swift */; };
 		B46C14DA1F00E77600DA24D8 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B46C14D81F00E77600DA24D8 /* Home.storyboard */; };
 		B46C14DC1F00E8DC00DA24D8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C14DB1F00E8DC00DA24D8 /* HomeViewController.swift */; };
 		B46C14DF1F00E91500DA24D8 /* Attention.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B46C14DD1F00E91500DA24D8 /* Attention.storyboard */; };
@@ -58,6 +59,7 @@
 		07EB52151EFDEFDC002A829D /* DouYuZhiBoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DouYuZhiBoUITests.swift; sourceTree = "<group>"; };
 		07EB52171EFDEFDC002A829D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07EB523E1EFDF41D002A829D /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		B40B9F7D1F03B4D8009FFB24 /* PageTitleVIew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageTitleVIew.swift; sourceTree = "<group>"; };
 		B46C14D91F00E77600DA24D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DouYuZhiBo/Base.lproj/Home.storyboard; sourceTree = SOURCE_ROOT; };
 		B46C14DB1F00E8DC00DA24D8 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		B46C14DE1F00E91500DA24D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DouYuZhiBo/Base.lproj/Attention.storyboard; sourceTree = SOURCE_ROOT; };
@@ -255,6 +257,7 @@
 		B46C14C81F00E1F100DA24D8 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B40B9F7D1F03B4D8009FFB24 /* PageTitleVIew.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -522,6 +525,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				07EB51F61EFDEFDC002A829D /* AppDelegate.swift in Sources */,
+				B40B9F7E1F03B4D8009FFB24 /* PageTitleVIew.swift in Sources */,
 				B46C14E11F00E93700DA24D8 /* AttentionViewController.swift in Sources */,
 				B46C14F31F00F09700DA24D8 /* UIBarButtonItem-Extension.swift in Sources */,
 				07EB523F1EFDF41D002A829D /* MainViewController.swift in Sources */,

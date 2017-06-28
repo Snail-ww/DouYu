@@ -8,12 +8,16 @@
 
 import UIKit
 
+let kScreenW = UIScreen.main.bounds.width
+let kScreemH = UIScreen.main.bounds.height
+
+
 class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        setupUI()
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -32,4 +36,38 @@ class HomeViewController: UIViewController {
     }
     */
 
+}
+
+extension HomeViewController {
+    fileprivate func setupUI() {
+        setupNavigationBar()
+    }
+    fileprivate func setupNavigationBar() {
+        navigationController?.navigationBar.barTintColor = UIColor.orange
+        
+        let searchBtn = UIButton(type: UIButtonType.custom)
+        searchBtn.frame = CGRect(origin: CGPoint.zero, size: CGSize(width: 30, height: 30))
+        searchBtn.setImage(UIImage(named: "home_search_icon"), for: UIControlState.normal)
+        
+        let QRCodeBtn = UIButton(type: UIButtonType.custom)
+        QRCodeBtn.frame = CGRect(origin: CGPoint.zero, size: CGSize(width: 35, height: 30))
+        QRCodeBtn.setImage(UIImage(named: "home_QRCode_icon"), for: UIControlState.normal)
+  
+        let titleView = UITextField(frame: CGRect(origin: CGPoint.zero, size: CGSize(width: kScreenW, height: 30)))
+        titleView.backgroundColor = UIColor.white
+        titleView.leftViewMode = UITextFieldViewMode.always
+        titleView.leftView = searchBtn
+        titleView.rightViewMode = UITextFieldViewMode.always
+        titleView.rightView = QRCodeBtn
+        titleView.layer.masksToBounds = true
+        titleView.layer.cornerRadius = 15.0
+        navigationItem.titleView = titleView
+        
+        navigationItem.leftBarButtonItem = UIBarButtonItem(imageName: "home_logo")
+        
+        let newGameBtn = UIBarButtonItem(imageName: "home_newGame", highImageName: "home_newGame_H", size: CGSize(width: 30, height: 30))
+        let historyBtn = UIBarButtonItem(imageName: "home_history", highImageName: "home_history_H", size: CGSize(width: 30, height: 30))
+        navigationItem.rightBarButtonItems = [historyBtn, newGameBtn]
+        
+    }
 }
