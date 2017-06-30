@@ -70,4 +70,8 @@ extension HomeViewController {
         navigationItem.rightBarButtonItems = [historyBtn, newGameBtn]
         
     }
+    
+    fileprivate func setupPageView() {
+        
+    }
 }
